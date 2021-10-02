@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="icon" href="images/116.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class=" all-content">
+        <nav class="navbar navbar-expand-lg navbar-dark py-4">
+            <div class="container d-flex justify-content-between">
+                <div class=" d-flex">
+                  <i class="fas fa-cloud-moon fs-1 text-info pe-1"></i>
+                  <h1 class="text-white text-capitalize ">weather</h1>
+                </div>
+                <div>
+                  <button class="btn btn-outline-info my-2 my-sm-0">Login</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class=" container">
+
+            <div class=" search m-auto mt-5">
+                <input class="input-search bg-transparent text-white " type="search" placeholder="Search Location" >
+                <!-- <button class="search-btn btn btn-outline-info">search</button> -->
+            </div>
+            <div class="row mt-5">
+
+                <div class="col-lg-4 col-md-6 mb-3 ">
+                    <div class="weather-section text-white">
+                        <div class="bg-black px-4 py-1 d-flex justify-content-between ">
+                            <p class="today"></p>
+                            <p class="day-month"></p>
+                        </div>
+                        <div class="p-4">     
+                            <div class="">
+                                <h2 class="country-name"></h2>
+                            </div>
+
+                            <div class=" d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h2 class="dayTepm" ></h2>
+                                    <span class="dayAvgTemp"></span>
+                                </div>
+                                <div>
+                                    <img src="" class="iconDayCast"></img>
+                                </div>
+            
+                            </div>
+
+                            <div class="">
+                                <p class="dayCast text-info"></p>
+                            </div>
+
+                            <div>
+                                <i class="fas fa-umbrella pe-1"> </i>
+                                <span class="humidity"></span>
+                                <span>%</span>
+
+                                <i class="fas fa-wind ps-3 pe-1"> </i>
+                                <span class="wind"></span>
+                                <span>km/h</span>
+
+                                <i class="fas fa-compass ps-3 pe-1"> </i>
+                                <span class="compass"></span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <div class="weather-section text-center text-white">  
+                        <div class="bg-black py-1">
+                            <p class="nextDay"></p>
+                        </div> 
+                        <div class="p-3">
+                            <img src="" class="iconNextCast"></img>
+                            <h2 class="nextTemp"></h2>   
+                            <span class="nextAvgTemp"></span>
+                            <p class="nextCast text-info"></p>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="col-lg-4 col-md-6 ">
+                    <div class="weather-section text-center text-white">  
+                        <div class="bg-black py-1">
+                            <p class="afterNext"></p>
+                        </div> 
+                        <div class="p-3">
+                            <img src="" class="iconAftNextCast"></img> 
+                            <h2 class="afterNextTemp"></h2>   
+                            <span class="afterNextAvgTemp"></span>
+                            <p class="aftNextCast text-info"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="text-white py-4">
+            <div class="footer-section container">   
+                <div class="footer-copyright">
+                    <p>copyright &copy; 2021 weather website.</p>
+                </div>
+                <div class="footer-icon">
+                    <i class="fab fa-facebook-square text-info fs-5"></i>
+                    <i class="fab fa-twitter-square text-info fs-5"></i>
+                    <i class="fab fa-instagram-square text-info fs-5"></i>
+                    <i class="fab fa-google-plus-square text-info fs-5"></i>
+                </div>
+            </div> 
+        </footer>
+    </section>
+
+    
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
